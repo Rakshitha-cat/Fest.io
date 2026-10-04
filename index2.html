@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Innovation Expo</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Innovation Expo</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#events">Events</a>
+                <a href="#projects">Projects</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#register">Register</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="announcement">
+        <div class="announcement-text">LIVE DEMOS • ROBOTICS • STARTUP PITCHES • AI INNOVATION • REGISTER NOW •</div>
+    </section>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="live-badge">LIVE EXPO 2026</span>
+            <h1>Interactive Innovation Expo</h1>
+            <p>Discover innovative ideas,technologies,creative projects.</p>
+            <div class="hero-buttons">
+                <a href="#register" class="btn"> Register Now</a>
+                <a href="#projects" class="btn sec">Explore Projects</a>
+            </div>
+        </div>
+    </section>
+    <section id="events" class="section">
+        <h2>Event Information</h2>
+        <div class="container">
+            <div class="info-box">
+                <span class="icon">📅</span>
+                <h3>Date</h3>
+                <p>15 October 2026</p>
+            </div>
+            <div class="info-box">
+                <span class="icon">📍</span>
+                <h3>Venue</h3>
+                <p>Auditorium, Sai University</p>
+            </div>
+            <div class="info-box">
+                <span class="icon">💡</span>
+                <h3>Projects</h3>
+                <p>50+ Innovative Projects</p>
+            </div>
+            <div class="info-box">
+                <span class="icon">🎟️</span>
+                <h3>Status</h3>
+                <p>Registration Open</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="section projects-section">
+        <h2>Innovation Projects</h2>
+        <div class="project-grid">
+            <article class="project-card featured">
+                <span class="live-demo"> LIVE DEMO </span>
+                <div class="project-icon">🤖</div>
+                <h3>AI Assistant</h3>
+                <p>An intelligent AI assistant that helps users solve problems and interact using natural language.</p> 
+            </article>
+            <article class="project-card">
+                <div class="project-icon">🌱</div>
+                <h3>Smart Agriculture</h3>
+                <p>Smart farming technology using sensors and data to improve crop production.</p>
+            </article>
+            <article class="project-card">
+                <div class="project-icon">🦾</div>
+                <h3>Robotics</h3>
+                <p>Intelligent robots designed to automate real-world tasks.</p>
+            </article>
+            <article class="project-card">
+                <div class="project-icon">⚡</div>
+                <h3>Green Energy</h3>
+                <p>Innovative renewable energy solutions for a sustainable future.</p>
+            </article>
+            <article class="project-card">
+                <div class="project-icon">🔐</div>
+                <h3>Cyber Security</h3>
+                <p>Modern security solutions for protecting digital information and systems.</p>
+            </article>
+            <article class="project-card">
+                <div class="project-icon">🥽</div>
+                <h3>AR/VR</h3>
+                <p>Immersive augmented and virtual reality experiences for education and entertainment.</p>
+            </article>
+        </div>
+    </section>
+    <section id="schedule" class="section">
+        <h2>Event Schedule</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Event</th>
+                        <th>Venue</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>09:00 AM</td>
+                        <td>Opening Ceremony</td>
+                        <td>Main Hall</td>
+                    </tr>
+                    <tr>
+                        <td>10:00 AM</td>
+                        <td>AI Project Demonstration</td>
+                        <td>Lab 1</td>
+                    </tr>
+                    <tr>
+                        <td>11:30 AM</td>
+                        <td>Robotics Showcase</td>
+                        <td>Innovation Arena</td>
+                    </tr>
+                    <tr>
+                        <td>01:00 PM</td>
+                        <td>Startup Pitch</td>
+                        <td>Conference Hall</td>
+                    </tr>
+                    <tr>
+                        <td>03:00 PM</td>
+                        <td>AR / VR Experience</td>
+                        <td>Tech Zone</td>
+                    </tr>
+                    <tr>
+                        <td>05:00 PM</td>
+                        <td>Prize Distribution</td>
+                        <td>Main Hall</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section id="register" class="section register-section">
+        <h2>Register for Innovation Expo</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text"id="name"name="name"placeholder="Enter your name"required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email"id="email"name="email"placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="Department">Department</label>
+                <select id="department" required>
+                    <option value="">Select Department</option>
+                    <option>Data Science</option>
+                    <option>Computer Science</option>
+                    <option>AI & ML </option>
+                    <option>Data Science</option>
+                    <option>Cyber Security</option>
+                    <option>Electronics</option>
+                </select>
+            </div>       
+            <div class="form-group">
+                <label for="year">Year</label>
+                <select id="year" required>
+                    <option value="">Select Year</option>
+                    <option>1st Year</option>
+                    <option>2nd Year</option>
+                    <option>3rd Year</option>
+                    <option>4th Year</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="interest">Project Interest</label>
+                <select id="interest" required>
+                    <option value="">Select Project</option>
+                    <option>AI Assistant</option>
+                    <option>Smart Agriculture</option>
+                    <option>Robotics</option>
+                    <option>Green Energy</option>
+                    <option>Cyber Security</option>
+                    <option>AR / VR</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message"> Message </label>
+                <textarea id="message"rows="5"placeholder="Tell us about your project..."required></textarea>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox"id="updates"required>
+                <label for="updates">I agree to receive event updates.</label>
+            </div>
+            <button type="submit">
+                Submit Registration
+            </button>
+        </form>
+    </section>
+    <footer>
+        <h3>Interactive Innovation Expo</h3>
+        <p>Where ideas meet technology.</p>
+        <p>© 2026 Innovation Expo. All Rights Reserved.</p>
+    </footer>
+    <script src=script.js></script>
+</body>
+</html>
